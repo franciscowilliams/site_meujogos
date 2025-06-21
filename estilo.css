@@ -5,8 +5,10 @@
 }
 body{
     background-image: url("images/videogame.avif");
+    padding-top:50px;
 }
-header .container{
+
+header .container {
     display: flex;
     background-image:url("images/depositphotos_259335260-stock-photo-illustration-control-pad-icon.jpg");
     background-size: 40px;
@@ -14,6 +16,11 @@ header .container{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 5px;
+    position: fixed;
+    top:0;
+    z-index:1000;
+    width: 100%;
+    
 }
 header li {
     display: inline;
@@ -43,32 +50,19 @@ main{
     border-left: #fff solid 2px;
     border-right: #fff solid 2px;
     
+    
 }
 .sh, .pes2013, .fifa14, .re{
     display:flex;
     margin-top: 2px
 }
-img{
-    width:500px;
-    height: 500px;
-}
-.about{
-    
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
 .about p{
     font-size: 25px;
     font-style: italic;
     color: #fff;
-    
-    
+    margin-left: 150px;
 }
-.about img{
-    width:1000px;
-    margin-top: 15px;
-}
+
 h2{
     margin-top: 25px;
     margin-bottom: 20px;
